@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">DrawingApp</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+
+    <!--adding string values for buttons-->
+    <string name="new_button"> New </string>
+    <string name="paint_button"> Paint </string>
+    <string name="save_button"> Save </string>
+    <string name="erase_button"> Erase </string>
+
+    <string name="paint_color"> Color</string>
+</resources>
