@@ -19,8 +19,7 @@
             android:layout_height="50dp"
             android:weightSum="1"
             android:id="@+id/ui_buttons"
-            android:layout_weight="0.11"
-            android:background="#a3ffe9">
+            android:layout_weight="0.11">
 
             <ImageButton
                 android:layout_width="50dp"
@@ -28,7 +27,8 @@
                 android:id="@+id/imageButton2"
                 android:layout_weight="0.22"
                 android:layout_marginLeft="20dp"
-                android:contentDescription="@string/paint_button" />
+                android:contentDescription="@string/paint_button"
+                android:background="@drawable/new_file" />
 
             <ImageButton
                 android:layout_width="50dp"
@@ -36,7 +36,8 @@
                 android:id="@+id/imageButton3"
                 android:layout_weight="0.17"
                 android:layout_marginLeft="20dp"
-                android:contentDescription="@string/save_button" />
+                android:contentDescription="@string/save_button"
+                android:background="@drawable/brush" />
 
             <ImageButton
                 android:layout_width="50dp"
@@ -44,7 +45,8 @@
                 android:id="@+id/imageButton4"
                 android:layout_weight="0.19"
                 android:layout_marginLeft="20dp"
-                android:contentDescription="@string/erase_button" />
+                android:contentDescription="@string/erase_button"
+                android:background="@drawable/save" />
 
             <ImageButton
                 android:layout_width="50dp"
@@ -52,7 +54,8 @@
                 android:id="@+id/imageButton"
                 android:layout_weight="0.22"
                 android:layout_marginLeft="20dp"
-                android:contentDescription="@string/new_button" />
+                android:contentDescription="@string/new_button"
+                android:background="@drawable/erase" />
 
         </LinearLayout>
 
